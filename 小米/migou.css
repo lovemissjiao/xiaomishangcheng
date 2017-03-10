@@ -1,0 +1,111 @@
+.daohang{
+    height: 70px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+.daohang .jiantou{
+    
+    height: 40px;
+    color: gray; 
+}
+.daohang p{
+    text-align: center;
+    font-size: 40px;
+    color: gray;
+}
+.daohang .sousuo{
+    height: 40px;
+    color: gray;
+    margin-right: 30px;
+}
+.denglu{
+    height: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.deng01{
+     font-size: 25px;
+     line-height: 80px;
+}
+.deng02{
+     font-size: 20px;
+     line-height: 90px;
+}
+.jiagou{
+    height: 90px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+}
+.jiagou p span{
+    font-size: 20px;
+    line-height: 70px;
+    color: gray;
+}
+jiagou p .button{
+    font-size: 20px;
+    height: 30px;
+}
+.tuijian{
+    margin-bottom: 80px;
+    padding: 0px;
+}
+
+.computer{
+    /*height: 300px;*/
+    width: 100%;
+    background-color: lightskyblue;
+}
+
+.computer main{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.computer figcaption{
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+.computer img{
+    /*height: 260px;*/
+    /*width: 260px;*/
+    width: 100%;
+}
+
+.computer main img{
+     width: 100%;
+     border: 5px solid lightgray;
+}
+
+
+figure figcaption{
+    /*width: 220px;*/
+    width: 100%;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+.footer span{
+    font-size: 20px;
+    padding: 10px;
+    /*padding-left: 40px;
+    padding-right: 40px;*/
+    color: gray;
+
+}
+.footer a:hover{
+    text-decoration: none;
+}
+.footer  span:hover{
+    color: orangered;
+    
+}
